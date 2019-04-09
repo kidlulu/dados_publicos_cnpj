@@ -2287,7 +2287,7 @@ CREATE TABLE raisdes.cnpj_pub_sit_cadastral(
 ) ON [PRIMARY]
 GO
 
-BULK INSERT raisdes.cnpj_pub_sit_cadastral FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\DominiosMotivoSituaoCadastral.csv' WITH (FIELDTERMINATOR=';', FIRSTROW=2, codepage=1252))
+BULK INSERT raisdes.cnpj_pub_sit_cadastral FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\DominiosMotivoSituaoCadastral.csv' WITH (FIELDTERMINATOR=';', FIRSTROW=2, codepage=1252)
 GO
 
 IF OBJECT_ID('raisdes.cnpj_pub_qualificacao_responsavel', 'U') IS NOT NULL DROP TABLE raisdes.cnpj_pub_qualificacao_responsavel
@@ -2299,5 +2299,5 @@ CREATE TABLE raisdes.cnpj_pub_qualificacao_responsavel(
 ) ON [PRIMARY]
 GO
 
-BULK INSERT raisdes.cnpj_pub_sit_cadastral FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\DominiosQualificaodoresponsvel.csv' WITH (FIELDTERMINATOR=';', FIRSTROW=2, codepage=1252))
+BULK INSERT raisdes.cnpj_pub_sit_cadastral FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\DominiosQualificaodoresponsvel.csv' WITH (FIELDTERMINATOR=';', FIRSTROW=2, codepage=1252)
 GO
