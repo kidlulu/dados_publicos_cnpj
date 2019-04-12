@@ -18,2183 +18,2235 @@ CREATE TABLE raisdes.tmp2(
 ) ON [PRIMARY]
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_1.txt' WITH (FIRSTROW=2, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_1.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_2.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_2.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_3.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_3.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_4.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_4.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_5.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_5.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_6.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_6.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_7.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_7.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_8.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_8.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_9.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_9.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_10.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_10.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_11.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_11.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_12.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_12.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_13.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_13.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_14.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_14.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_15.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_15.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_16.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_16.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_17.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_17.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_18.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_18.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_19.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_19.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_20.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_20.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_21.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_21.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_22.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_22.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_23.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_23.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_24.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_24.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_25.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_25.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_26.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_26.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_27.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_27.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_28.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_28.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_29.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_29.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_30.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_30.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_31.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_31.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_32.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_32.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_33.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_33.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_34.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_34.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_35.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_35.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_36.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_36.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_37.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_37.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_38.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_38.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_39.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_39.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_40.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_40.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_41.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_41.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_42.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_42.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_43.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_43.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_44.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_44.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_45.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_45.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_46.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_46.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_47.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_47.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_48.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_48.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_49.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_49.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_50.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_50.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_51.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_51.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_52.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_52.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_53.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_53.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_54.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_54.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_55.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_55.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_56.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_56.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_57.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_57.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_58.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_58.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_59.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_59.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_60.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_60.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_61.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_61.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_62.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_62.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_63.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_63.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_64.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_64.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_65.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_65.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_66.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_66.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_67.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_67.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_68.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_68.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_69.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_69.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_70.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_70.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_71.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_71.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_72.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_72.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_73.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_73.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_74.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_74.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_75.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_75.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_76.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_76.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_77.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_77.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_78.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_78.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_79.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_79.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_80.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_80.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_81.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_81.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_82.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_82.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_83.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_83.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_84.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_84.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_85.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_85.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_86.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_86.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_87.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_87.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_88.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_88.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_89.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_89.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_90.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_90.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_91.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_91.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_92.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_92.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_93.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_93.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_94.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_94.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_95.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_95.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_96.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_96.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_97.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_97.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_98.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_98.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_99.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_99.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_100.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_100.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_101.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_101.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_102.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_102.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_103.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_103.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_104.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_104.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_105.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_105.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_106.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_106.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_107.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_107.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_108.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_108.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_109.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_109.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_110.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_110.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_111.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_111.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_112.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_112.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_113.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_113.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_114.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_114.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_115.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_115.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_116.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_116.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_117.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_117.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_118.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_118.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_119.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_119.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_120.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_120.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_121.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_121.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_122.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_122.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_123.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_123.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_124.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_124.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_125.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_125.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_126.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_126.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_127.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_127.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_128.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_128.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_129.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_129.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_130.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_130.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_131.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_131.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_132.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_132.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_133.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_133.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_134.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_134.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_135.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_135.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_136.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_136.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_137.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_137.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_138.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_138.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_139.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_139.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_140.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_140.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_141.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_141.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_142.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_142.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_143.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_143.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_144.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_144.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_145.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_145.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_146.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_146.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_147.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_147.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_148.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_148.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_149.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_149.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_150.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_150.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_151.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_151.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_152.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_152.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_153.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_153.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_154.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_154.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_155.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_155.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_156.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_156.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_157.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_157.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_158.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_158.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_159.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_159.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_160.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_160.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_161.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_161.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_162.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_162.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_163.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_163.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_164.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_164.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_165.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_165.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_166.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_166.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_167.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_167.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_168.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_168.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_169.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_169.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_170.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_170.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_171.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_171.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_172.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_172.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_173.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_173.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_174.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_174.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_175.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_175.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_176.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_176.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_177.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_177.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_178.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_178.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_179.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_179.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_180.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_180.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_181.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_181.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_182.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_182.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_183.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_183.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_184.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_184.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_185.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_185.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_186.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_186.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_187.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_187.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_188.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_188.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_189.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_189.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_190.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_190.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_191.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_191.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_192.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_192.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_193.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_193.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_194.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_194.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_195.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_195.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_196.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_196.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_197.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_197.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_198.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_198.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_199.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_199.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_200.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_200.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_201.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_201.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_202.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_202.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_203.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_203.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_204.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_204.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_205.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_205.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_206.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_206.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_207.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_207.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_208.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_208.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_209.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_209.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_210.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_210.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_211.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_211.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_212.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_212.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_213.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_213.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_214.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_214.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_215.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_215.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_216.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_216.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_217.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_217.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_218.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_218.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_219.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_219.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_220.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_220.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_221.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_221.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_222.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_222.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_223.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_223.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_224.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_224.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_225.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_225.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_226.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_226.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_227.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_227.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_228.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_228.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_229.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_229.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_230.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_230.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_231.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_231.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_232.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_232.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_233.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_233.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_234.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_234.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_235.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_235.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_236.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_236.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_237.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_237.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_238.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_238.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_239.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_239.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_240.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_240.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_241.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_241.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_242.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_242.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_243.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_243.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_244.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_244.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_245.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_245.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_246.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_246.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_247.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_247.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_248.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_248.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_249.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_249.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_250.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_250.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_251.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_251.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_252.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_252.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_253.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_253.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_254.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_254.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_255.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_255.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_256.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_256.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_257.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_257.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_258.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_258.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_259.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_259.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_260.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_260.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_261.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_261.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_262.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_262.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_263.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_263.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_264.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_264.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_265.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_265.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_266.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_266.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_267.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_267.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_268.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_268.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_269.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_269.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_270.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_270.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_271.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_271.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_272.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_272.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_273.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_273.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_274.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_274.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_275.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_275.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_276.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_276.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_277.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_277.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_278.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_278.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_279.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_279.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_280.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_280.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_281.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_281.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_282.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_282.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_283.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_283.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_284.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_284.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_285.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_285.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_286.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_286.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_287.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_287.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_288.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_288.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_289.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_289.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_290.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_290.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_291.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_291.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_292.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_292.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_293.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_293.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_294.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_294.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_295.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_295.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_296.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_296.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_297.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_297.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_298.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_298.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_299.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_299.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_300.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_300.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_301.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_301.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_302.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_302.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_303.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_303.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_304.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_304.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_305.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_305.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_306.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_306.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_307.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_307.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_308.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_308.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_309.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_309.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_310.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_310.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_311.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_311.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_312.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_312.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_313.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_313.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_314.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_314.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_315.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_315.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_316.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_316.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_317.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_317.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_318.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_318.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_319.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_319.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_320.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_320.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_321.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_321.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_322.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_322.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_323.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_323.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_324.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_324.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_325.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_325.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_326.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_326.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_327.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_327.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_328.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_328.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_329.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_329.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_330.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_330.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_331.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_331.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_332.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_332.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_333.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_333.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_334.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_334.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_335.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_335.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_336.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_336.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_337.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_337.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_338.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_338.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_339.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_339.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_340.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_340.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_341.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_341.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_342.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_342.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_343.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_343.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_344.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_344.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_345.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_345.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_346.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_346.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_347.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_347.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_348.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_348.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_349.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_349.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_350.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_350.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_351.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_351.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_352.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_352.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_353.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_353.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_354.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_354.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_355.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_355.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_356.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_356.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_357.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_357.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_358.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_358.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_359.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_359.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_360.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_360.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_361.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_361.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_362.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_362.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_363.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_363.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_364.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_364.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_365.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_365.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_366.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_366.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_367.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_367.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_368.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_368.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_369.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_369.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_370.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_370.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_371.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_371.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_372.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_372.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_373.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_373.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_374.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_374.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_375.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_375.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_376.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_376.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_377.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_377.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_378.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_378.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_379.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_379.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_380.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_380.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_381.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_381.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_382.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_382.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_383.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_383.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_384.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_384.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_385.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_385.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_386.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_386.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_387.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_387.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_388.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_388.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_389.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_389.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_390.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_390.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_391.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_391.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_392.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_392.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_393.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_393.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_394.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_394.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_395.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_395.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_396.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_396.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_397.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_397.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_398.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_398.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_399.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_399.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_400.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_400.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_401.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_401.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_402.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_402.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_403.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_403.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_404.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_404.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_405.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_405.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_406.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_406.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_407.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_407.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_408.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_408.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_409.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_409.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_410.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_410.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_411.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_411.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_412.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_412.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_413.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_413.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_414.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_414.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_415.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_415.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_416.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_416.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_417.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_417.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_418.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_418.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_419.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_419.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_420.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_420.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_421.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_421.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_422.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_422.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_423.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_423.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_424.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_424.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_425.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_425.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_426.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_426.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_427.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_427.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_428.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_428.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_429.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_429.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_430.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_430.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_431.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_431.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_432.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_432.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_433.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_433.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_434.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_434.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_435.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_435.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_436.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_436.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_437.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_437.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_438.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_438.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_439.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_439.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_440.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_440.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_441.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_441.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_442.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_442.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_443.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_443.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_444.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_444.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_445.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_445.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_446.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_446.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_447.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_447.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_448.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_448.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_449.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_449.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_450.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_450.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_451.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_451.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_452.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_452.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_453.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_453.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_454.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_454.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_455.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_455.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_456.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_456.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_457.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_457.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_458.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_458.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_459.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_459.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_460.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_460.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_461.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_461.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_462.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_462.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_463.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_463.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_464.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_464.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_465.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_465.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_466.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_466.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_467.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_467.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_468.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_468.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_469.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_469.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_470.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_470.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_471.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_471.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_472.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_472.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_473.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_473.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_474.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_474.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_475.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_475.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_476.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_476.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_477.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_477.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_478.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_478.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_479.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_479.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_480.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_480.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_481.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_481.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_482.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_482.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_483.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_483.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_484.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_484.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_485.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_485.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_486.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_486.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_487.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_487.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_488.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_488.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_489.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_489.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_490.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_490.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_491.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_491.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_492.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_492.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_493.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_493.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_494.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_494.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_495.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_495.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_496.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_496.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_497.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_497.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_498.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_498.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_499.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_499.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_500.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_500.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_501.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_501.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_502.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_502.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_503.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_503.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_504.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_504.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_505.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_505.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_506.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_506.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_507.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_507.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_508.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_508.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_509.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_509.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_510.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_510.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_511.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_511.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_512.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_512.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_513.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_513.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_514.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_514.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_515.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_515.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_516.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_516.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_517.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_517.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_518.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_518.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_519.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_519.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_520.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_520.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_521.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_521.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_522.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_522.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_523.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_523.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_524.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_524.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_525.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_525.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_526.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_526.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_527.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_527.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_528.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_528.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_529.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_529.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_530.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_530.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_531.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_531.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_532.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_532.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_533.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_533.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_534.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_534.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_535.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_535.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_536.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_536.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_537.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_537.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_538.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_538.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_539.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_539.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_540.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_540.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_541.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_541.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_542.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_542.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_543.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_543.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_544.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_544.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_545.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_545.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_546.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_546.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_547.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_547.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_548.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_548.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_549.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_549.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_550.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_550.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_551.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_551.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_552.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_552.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_553.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_553.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_554.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_554.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_555.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_555.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_556.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_556.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_557.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_557.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_558.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_558.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_559.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_559.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_560.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_560.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_561.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_561.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_562.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_562.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_563.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_563.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_564.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_564.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_565.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_565.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_566.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_566.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_567.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_567.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_568.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_568.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_569.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_569.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_570.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_570.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_571.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_571.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_572.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_572.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_573.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_573.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_574.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_574.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_575.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_575.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_576.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_576.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_577.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_577.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_578.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_578.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_579.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_579.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_580.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_580.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_581.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_581.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_582.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_582.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_583.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_583.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_584.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_584.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_585.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_585.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_586.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_586.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_587.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_587.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_588.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_588.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_589.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_589.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_590.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_590.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_591.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_591.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_592.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_592.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_593.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_593.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_594.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_594.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_595.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_595.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_596.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_596.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_597.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_597.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_598.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_598.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_599.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_599.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_600.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_600.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_601.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_601.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_602.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_602.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_603.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_603.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_604.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_604.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_605.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_605.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_606.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_606.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_607.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_607.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_608.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_608.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_609.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_609.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_610.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_610.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_611.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_611.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_612.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_612.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_613.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_613.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_614.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_614.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_615.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_615.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_616.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_616.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_617.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_617.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_618.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_618.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_619.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_619.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_620.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_620.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_621.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_621.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_622.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_622.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_623.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_623.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_624.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_624.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_625.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_625.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_626.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_626.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_627.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_627.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_628.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_628.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_629.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_629.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_630.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_630.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_631.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_631.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_632.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_632.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_633.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_633.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_634.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_634.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_635.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_635.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_636.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_636.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_637.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_637.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_638.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_638.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_639.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_639.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_640.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_640.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_641.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_641.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_642.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_642.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_643.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_643.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_644.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_644.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_645.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_645.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_646.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_646.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_647.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_647.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_648.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_648.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_649.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_649.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_650.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_650.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_651.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_651.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_652.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_652.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_653.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_653.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_654.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_654.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_655.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_655.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_656.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_656.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_657.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_657.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_658.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_658.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_659.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_659.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_660.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_660.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_661.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_661.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_662.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_662.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_663.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_663.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_664.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_664.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_665.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_665.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_666.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_666.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_667.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_667.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_668.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_668.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_669.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_669.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_670.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_670.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_671.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_671.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_672.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_672.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_673.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_673.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_674.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_674.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_675.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_675.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_676.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_676.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_677.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_677.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_678.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_678.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_679.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_679.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_680.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_680.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_681.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_681.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_682.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_682.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_683.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_683.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_684.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_684.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_685.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_685.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_686.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_686.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_687.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_687.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_688.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_688.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_689.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_689.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_690.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_690.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_691.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_691.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_692.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_692.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_693.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_693.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_694.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_694.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_695.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_695.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_696.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_696.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_697.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_697.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_698.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_698.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_699.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_699.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_700.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_700.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_701.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_701.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_702.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_702.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_703.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_703.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_704.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_704.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_705.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_705.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_706.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_706.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_707.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_707.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_708.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_708.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_709.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_709.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_710.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_710.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_711.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_711.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_712.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_712.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_713.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_713.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_714.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_714.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_715.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_715.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_716.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_716.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_717.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_717.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_718.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_718.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_719.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_719.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_720.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_720.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_721.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_721.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_722.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_722.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_723.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_723.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D81106D_724.txt' WITH (FIRSTROW=1, codepage=1252)
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_724.txt' WITH (FIRSTROW=1, codepage=1252)
 GO
 
-IF OBJECT_ID('raisdes.cnpj_pub_principal', 'U') IS NOT NULL DROP TABLE raisdes.cnpj_pub_principal
-GO 
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_725.txt' WITH (FIRSTROW=1, codepage=1252)
+GO
+
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_726.txt' WITH (FIRSTROW=1, codepage=1252)
+GO
+
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_727.txt' WITH (FIRSTROW=1, codepage=1252)
+GO
+
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_728.txt' WITH (FIRSTROW=1, codepage=1252)
+GO
+
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_729.txt' WITH (FIRSTROW=1, codepage=1252)
+GO
+
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_730.txt' WITH (FIRSTROW=1, codepage=1252)
+GO
+
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_731.txt' WITH (FIRSTROW=1, codepage=1252)
+GO
+
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_732.txt' WITH (FIRSTROW=1, codepage=1252)
+GO
+
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_733.txt' WITH (FIRSTROW=1, codepage=1252)
+GO
+
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_734.txt' WITH (FIRSTROW=1, codepage=1252)
+GO
+
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_735.txt' WITH (FIRSTROW=1, codepage=1252)
+GO
+
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_736.txt' WITH (FIRSTROW=1, codepage=1252)
+GO
+
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_737.txt' WITH (FIRSTROW=1, codepage=1252)
+GO
+
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_738.txt' WITH (FIRSTROW=1, codepage=1252)
+GO
+
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_739.txt' WITH (FIRSTROW=1, codepage=1252)
+GO
+
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_740.txt' WITH (FIRSTROW=1, codepage=1252)
+GO
+
+BULK INSERT raisdes.tmp2 FROM '\\320CDL415.codeplandf.gdfnet.df\tmp_spss\cnpj\F.K032001K.D90308_741.txt' WITH (FIRSTROW=1, codepage=1252)
+GO
+
+/*IF OBJECT_ID('raisdes.cnpj_pub_principal', 'U') IS NOT NULL DROP TABLE raisdes.cnpj_pub_principal
+GO*/ 
 
+insert into raisdes.cnpj_pub_principal
 select 
-   20181120 as referencia,
+   20190314 as referencia,
    cast(ltrim(rtrim(substring(coluna,2,1))) as nchar(1)) as ind_fulldiario,
    cast(ltrim(rtrim(substring(coluna,3,1))) as nchar(1)) as tp_atualizacao,
    cast(ltrim(rtrim(substring(coluna,4,14))) as nchar(14)) as cnpj,
@@ -2232,16 +2284,16 @@ select
    cast(ltrim(rtrim(substring(coluna,925,1))) as nchar(1)) as opcao_mei,
    cast(ltrim(rtrim(substring(coluna,926,23))) as nchar(23)) as st_especial,
    cast(ltrim(rtrim(substring(coluna,949,8))) as nchar(8)) as dt_st_especial
-into raisdes.cnpj_pub_principal
 from raisdes.tmp2
 where cast(substring(coluna,1,1) as smallint) = 1
 GO
 
-IF OBJECT_ID('raisdes.cnpj_pub_socios', 'U') IS NOT NULL DROP TABLE raisdes.cnpj_pub_socios
-GO 
+/*IF OBJECT_ID('raisdes.cnpj_pub_socios', 'U') IS NOT NULL DROP TABLE raisdes.cnpj_pub_socios
+GO*/ 
 
+insert into raisdes.cnpj_pub_socios
 select 
-   20181120 as referencia,
+   20190314 as referencia,
    cast(ltrim(rtrim(substring(coluna,2,1))) as nchar(1)) as ind_fulldiario,
    cast(ltrim(rtrim(substring(coluna,3,1))) as nchar(1)) as tp_atualizacao,
    cast(ltrim(rtrim(substring(coluna,4,14))) as nchar(14)) as cnpj,
@@ -2256,16 +2308,15 @@ select
    cast(ltrim(rtrim(substring(coluna,271,11))) as nchar(11)) as cpf_representante_legal,
    cast(ltrim(rtrim(substring(coluna,282,60))) as nchar(60)) as nm_representante,
    cast(substring(coluna,342,2) as smallint) as cd_qualificacao_representante_legal
-into raisdes.cnpj_pub_socios
 from raisdes.tmp2
 where cast(substring(coluna,1,1) as smallint) = 2
 GO
 
 IF OBJECT_ID('raisdes.cnpj_pub_cnae_secundaria', 'U') IS NOT NULL DROP TABLE raisdes.cnpj_pub_cnae_secundaria
-GO 
+GO
 
 select 
-   20181120 as referencia,
+   20190314 as referencia,
    cast(ltrim(rtrim(substring(coluna,2,1))) as nchar(1)) as ind_fulldiario,
    cast(ltrim(rtrim(substring(coluna,3,1))) as nchar(1)) as tp_atualizacao,
    cast(ltrim(rtrim(substring(coluna,4,14))) as nchar(14)) as cnpj,
