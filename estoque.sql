@@ -471,3 +471,195 @@ GO
 IF OBJECT_ID('raisdes.excluir', 'U') IS NOT NULL DROP TABLE raisdes.excluir
 GO 
 
+/*Passo 08 - Carregar os arquivos com as informações das coordenadas geográficas dos endereços novos/alterados*/
+
+IF OBJECT_ID('raisdes.tmp', 'U') IS NOT NULL DROP TABLE raisdes.tmp
+GO 
+
+CREATE TABLE raisdes.tmp(
+	chave	varchar(max)	NULL,
+	coluna_pesq	varchar(max)	NULL,
+	dado_compl_pesq	varchar(max)	NULL,
+	dado_pesq	varchar(max)	NULL,
+	local_encontrado	varchar(max)	NULL,
+	similaridade	varchar(max)	NULL,
+	lat	varchar(max)	NULL,
+	long	varchar(max)	NULL
+) ON [PRIMARY]
+GO
+
+BULK INSERT raisdes.tmp FROM '\\320CDL415.codeplandf.gdfnet.df\carga\Bases\files_complemento_empresas\geocode1_complemento_empresas.csv_aa.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
+GO
+
+BULK INSERT raisdes.tmp FROM '\\320CDL415.codeplandf.gdfnet.df\carga\Bases\files_complemento_empresas\geocode1_complemento_empresas.csv_ab.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
+GO
+
+BULK INSERT raisdes.tmp FROM '\\320CDL415.codeplandf.gdfnet.df\carga\Bases\files_complemento_empresas\geocode1_complemento_empresas.csv_ac.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
+GO
+
+BULK INSERT raisdes.tmp FROM '\\320CDL415.codeplandf.gdfnet.df\carga\Bases\files_complemento_empresas\geocode1_complemento_empresas.csv_ad.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
+GO
+
+BULK INSERT raisdes.tmp FROM '\\320CDL415.codeplandf.gdfnet.df\carga\Bases\files_complemento_empresas\geocode1_complemento_empresas.csv_ae.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
+GO
+
+BULK INSERT raisdes.tmp FROM '\\320CDL415.codeplandf.gdfnet.df\carga\Bases\files_complemento_empresas\geocode1_complemento_empresas.csv_af.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
+GO
+
+IF OBJECT_ID('raisdes.geocode_comp', 'U') IS NOT NULL DROP TABLE raisdes.geocode_comp
+GO 
+
+select
+ cast(ltrim(rtrim(chave)) as char(36)) as chave,
+ cast(ltrim(rtrim(coluna_pesq)) as nchar(11)) as coluna_pesq,
+ cast(ltrim(rtrim(dado_compl_pesq)) as nchar(102)) as dado_compl_pesq,
+ cast(ltrim(rtrim(dado_pesq)) as nchar(60)) as dado_pesq,
+ cast(ltrim(rtrim(local_encontrado)) as nchar(92)) as local_encontrado,
+ cast(ltrim(rtrim(similaridade)) as float) as similaridade,
+ cast(ltrim(rtrim(lat)) as float) as lat,
+ cast(ltrim(rtrim(long)) as float) as long
+into raisdes.geocode_comp
+from raisdes.tmp
+where lat <> 'NOT FOUND'
+GO
+
+/*Passo 09 - Carregar os arquivos com as informações originais utilizadas para a elaboração das coordenadas geográficas dos endereços novos/alterados*/
+
+IF OBJECT_ID('raisdes.tmp', 'U') IS NOT NULL DROP TABLE raisdes.tmp
+GO 
+
+CREATE TABLE raisdes.tmp(
+chave	varchar(max)	NULL,
+referencia	varchar(max)	NULL,
+ind_fulldiario	varchar(max)	NULL,
+tp_atualizacao	varchar(max)	NULL,
+cnpj	varchar(max)	NULL,
+id_matrizfilial	varchar(max)	NULL,
+razaosocial	varchar(max)	NULL,
+nm_fantasia	varchar(max)	NULL,
+sit_cadastral	varchar(max)	NULL,
+dt_sit_cadastral	varchar(max)	NULL,
+motivo_sit_cadastral	varchar(max)	NULL,
+nm_cidadeexterior	varchar(max)	NULL,
+co_pais	varchar(max)	NULL,
+nm_pais	varchar(max)	NULL,
+cd_natureza_juridica	varchar(max)	NULL,
+dt_inicio_atividade	varchar(max)	NULL,
+cnae_fiscal	varchar(max)	NULL,
+desc_tipo_logradouro	varchar(max)	NULL,
+logradouro	varchar(max)	NULL,
+numero	varchar(max)	NULL,
+complemento	varchar(max)	NULL,
+bairro	varchar(max)	NULL,
+cep	varchar(max)	NULL,
+uf	varchar(max)	NULL,
+cd_municipio	varchar(max)	NULL,
+municipio	varchar(max)	NULL,
+ddd_telefone1	varchar(max)	NULL,
+ddd_telefone2	varchar(max)	NULL,
+ddd_fax	varchar(max)	NULL,
+email	varchar(max)	NULL,
+qualificacao_responsavel	varchar(max)	NULL,
+capital_social_empresa	varchar(max)	NULL,
+porte_empresa	varchar(max)	NULL,
+opcao_simples	varchar(max)	NULL,
+dt_opcao_simples	varchar(max)	NULL,
+dt_exclusao_simples	varchar(max)	NULL,
+opcao_mei	varchar(max)	NULL,
+st_especial	varchar(max)	NULL,
+dt_st_especial	varchar(max)	NULL
+) ON [PRIMARY]
+GO
+
+BULK INSERT raisdes.tmp FROM '\\320CDL415.codeplandf.gdfnet.df\carga\Bases\files_complemento_empresas\original_complemento_empresas.csv_aa.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
+GO
+
+BULK INSERT raisdes.tmp FROM '\\320CDL415.codeplandf.gdfnet.df\carga\Bases\files_complemento_empresas\original_complemento_empresas.csv_ab.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
+GO
+
+BULK INSERT raisdes.tmp FROM '\\320CDL415.codeplandf.gdfnet.df\carga\Bases\files_complemento_empresas\original_complemento_empresas.csv_ac.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
+GO
+
+BULK INSERT raisdes.tmp FROM '\\320CDL415.codeplandf.gdfnet.df\carga\Bases\files_complemento_empresas\original_complemento_empresas.csv_ad.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
+GO
+
+BULK INSERT raisdes.tmp FROM '\\320CDL415.codeplandf.gdfnet.df\carga\Bases\files_complemento_empresas\original_complemento_empresas.csv_ae.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
+GO
+
+BULK INSERT raisdes.tmp FROM '\\320CDL415.codeplandf.gdfnet.df\carga\Bases\files_complemento_empresas\original_complemento_empresas.csv_af.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
+GO
+
+/*Passo 10 - Geração de um único arquivo, cnpj_pub_principal_geo_comp, contendo as originais e as coordenadas geográficas dos endereços novos/alterados*/
+
+IF OBJECT_ID('raisdes.cnpj_pub_principal_geo_comp', 'U') IS NOT NULL DROP TABLE raisdes.cnpj_pub_principal_geo_comp
+GO 
+
+select 
+   20190314 as referencia,
+   cast(ltrim(rtrim(t1.chave)) as char(36)) as chave,
+   cast(ltrim(rtrim(t1.ind_fulldiario)) as nchar(1)) as ind_fulldiario,
+   cast(ltrim(rtrim(t1.tp_atualizacao)) as nchar(1)) as tp_atualizacao,
+   cast(ltrim(rtrim(t1.cnpj)) as nchar(14)) as cnpj,
+   cast(t1.id_matrizfilial as smallint) as id_matrizfilial,
+   cast(ltrim(rtrim(t1.razaosocial)) as nchar(150)) as razaosocial,
+   cast(ltrim(rtrim(t1.nm_fantasia)) as nchar(55)) as nm_fantasia,
+   cast(t1.sit_cadastral as smallint) as sit_cadastral,
+   cast(ltrim(rtrim(t1.dt_sit_cadastral)) as nchar(8)) as dt_sit_cadastral,
+   cast(t1.motivo_sit_cadastral as smallint) as motivo_sit_cadastral,
+   cast(ltrim(rtrim(t1.nm_cidadeexterior)) as nchar(55)) as nm_cidadeexterior,
+   cast(ltrim(rtrim(t1.co_pais)) as nchar(3)) as co_pais,
+   cast(ltrim(rtrim(t1.nm_pais)) as nchar(70)) as nm_pais,
+   cast(t1.cd_natureza_juridica as smallint) as cd_natureza_juridica,
+   cast(ltrim(rtrim(t1.dt_inicio_atividade)) as nchar(8)) as dt_inicio_atividade,
+   cast(ltrim(rtrim(t1.cnae_fiscal)) as nchar(7)) as cnae_fiscal,
+   cast(ltrim(rtrim(t1.desc_tipo_logradouro)) as nchar(20)) as desc_tipo_logradouro,
+   cast(ltrim(rtrim(t1.logradouro)) as nchar(60)) as logradouro,
+   cast(ltrim(rtrim(t1.numero)) as nchar(6)) as numero,
+   cast(ltrim(rtrim(t1.complemento)) as nchar(156)) as complemento,
+   cast(ltrim(rtrim(t1.bairro)) as nchar(50)) as bairro,
+   cast(ltrim(rtrim(t1.cep)) as nchar(8)) as cep,
+   cast(ltrim(rtrim(t1.uf)) as nchar(2)) as uf,
+   cast(t1.cd_municipio as int) as cd_municipio,
+   cast(ltrim(rtrim(t1.municipio)) as nchar(50)) as municipio,
+   cast(ltrim(rtrim(t1.ddd_telefone1)) as nchar(12)) as ddd_telefone1,
+   cast(ltrim(rtrim(t1.ddd_telefone2)) as nchar(12)) as ddd_telefone2,
+   cast(ltrim(rtrim(t1.ddd_fax)) as nchar(12)) as ddd_fax,
+   cast(ltrim(rtrim(t1.email)) as nvarchar(115)) as email,
+   cast(t1.qualificacao_responsavel as smallint) as qualificacao_responsavel,
+   cast(t1.capital_social_empresa as bigint) as capital_social_empresa,
+   cast(t1.porte_empresa as smallint) as porte_empresa,
+   cast(t1.opcao_simples as smallint) as opcao_simples,
+   cast(ltrim(rtrim(t1.dt_opcao_simples)) as nchar(8)) as dt_opcao_simples,
+   cast(ltrim(rtrim(t1.dt_exclusao_simples)) as nchar(8)) as dt_exclusao_simples,
+   cast(ltrim(rtrim(t1.opcao_mei)) as nchar(1)) as opcao_mei,
+   cast(ltrim(rtrim(t1.st_especial)) as nchar(23)) as st_especial,
+   cast(ltrim(rtrim(replace(t1.dt_st_especial,';',''))) as nchar(8)) as dt_st_especial,
+   t2.coluna_pesq,
+   t2.dado_compl_pesq,
+   t2.dado_pesq,
+   t2.local_encontrado,
+   t2.similaridade,
+   t2.lat,
+   t2.long
+into raisdes.cnpj_pub_principal_geo_comp
+from raisdes.tmp t1
+left join raisdes.geocode_comp t2
+on t1.chave = t2.chave
+GO
+
+IF OBJECT_ID('raisdes.geocode_comp', 'U') IS NOT NULL DROP TABLE raisdes.geocode_comp
+GO 
+
+/*Passo 11 - Exclusão dos CNPJs com endereços novos/alterados na tabela cnpj_pub_principal_geo*/
+
+delete from raisdes.cnpj_pub_principal_geo
+where cnpj in (select cnpj from raisdes.cnpj_pub_principal_geo_comp group by cnpj)
+GO
+
+/*Passo 12 - Acréscimo dos CNPJs com endereços novos/alterados na tabela cnpj_pub_principal_geo*/
+
+insert into  raisdes.cnpj_pub_principal_geo
+select * from raisdes.cnpj_pub_principal_geo_comp
+GO
+
+select count(1) from raisdes.cnpj_pub_principal_geo
