@@ -9,10 +9,10 @@ GO
 
 /*Passo 01 - Carregar os arquivos com as informações das coordenadas geográficas dos endereços*/
 
-IF OBJECT_ID('raisdes.tmp', 'U') IS NOT NULL DROP TABLE raisdes.tmp
+IF OBJECT_ID('raisdes.geocode1_enderecos_empresas_df', 'U') IS NOT NULL DROP TABLE raisdes.geocode1_enderecos_empresas_df
 GO 
 
-CREATE TABLE raisdes.tmp(
+CREATE TABLE raisdes.geocode1_enderecos_empresas_df(
 	chave	varchar(max)	NULL,
 	coluna_pesq	varchar(max)	NULL,
 	dado_compl_pesq	varchar(max)	NULL,
@@ -24,97 +24,97 @@ CREATE TABLE raisdes.tmp(
 ) ON [PRIMARY]
 GO
 
-BULK INSERT raisdes.tmp FROM '\\320CDL415.codeplandf.gdfnet.df\carga\bases\geocode1_enderecos_empresas_df_rf_20181120.csv_aa.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
+BULK INSERT raisdes.geocode1_enderecos_empresas_df FROM '\\320CDL415.codeplandf.gdfnet.df\carga\bases\geocode1_enderecos_empresas_df_rf_20181120.csv_aa.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
 GO
 
-BULK INSERT raisdes.tmp FROM '\\320CDL415.codeplandf.gdfnet.df\carga\bases\geocode1_enderecos_empresas_df_rf_20181120.csv_ab.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
+BULK INSERT raisdes.geocode1_enderecos_empresas_df FROM '\\320CDL415.codeplandf.gdfnet.df\carga\bases\geocode1_enderecos_empresas_df_rf_20181120.csv_ab.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
 GO
 
-BULK INSERT raisdes.tmp FROM '\\320CDL415.codeplandf.gdfnet.df\carga\bases\geocode1_enderecos_empresas_df_rf_20181120.csv_ac.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
+BULK INSERT raisdes.geocode1_enderecos_empresas_df FROM '\\320CDL415.codeplandf.gdfnet.df\carga\bases\geocode1_enderecos_empresas_df_rf_20181120.csv_ac.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
 GO
 
-BULK INSERT raisdes.tmp FROM '\\320CDL415.codeplandf.gdfnet.df\carga\bases\geocode1_enderecos_empresas_df_rf_20181120.csv_ad.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
+BULK INSERT raisdes.geocode1_enderecos_empresas_df FROM '\\320CDL415.codeplandf.gdfnet.df\carga\bases\geocode1_enderecos_empresas_df_rf_20181120.csv_ad.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
 GO
 
-BULK INSERT raisdes.tmp FROM '\\320CDL415.codeplandf.gdfnet.df\carga\bases\geocode1_enderecos_empresas_df_rf_20181120.csv_ae.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
+BULK INSERT raisdes.geocode1_enderecos_empresas_df FROM '\\320CDL415.codeplandf.gdfnet.df\carga\bases\geocode1_enderecos_empresas_df_rf_20181120.csv_ae.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
 GO
 
-BULK INSERT raisdes.tmp FROM '\\320CDL415.codeplandf.gdfnet.df\carga\bases\geocode1_enderecos_empresas_df_rf_20181120.csv_af.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
+BULK INSERT raisdes.geocode1_enderecos_empresas_df FROM '\\320CDL415.codeplandf.gdfnet.df\carga\bases\geocode1_enderecos_empresas_df_rf_20181120.csv_af.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
 GO
 
-BULK INSERT raisdes.tmp FROM '\\320CDL415.codeplandf.gdfnet.df\carga\bases\geocode1_enderecos_empresas_df_rf_20181120.csv_ag.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
+BULK INSERT raisdes.geocode1_enderecos_empresas_df FROM '\\320CDL415.codeplandf.gdfnet.df\carga\bases\geocode1_enderecos_empresas_df_rf_20181120.csv_ag.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
 GO
 
-BULK INSERT raisdes.tmp FROM '\\320CDL415.codeplandf.gdfnet.df\carga\bases\geocode1_enderecos_empresas_df_rf_20181120.csv_ah.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
+BULK INSERT raisdes.geocode1_enderecos_empresas_df FROM '\\320CDL415.codeplandf.gdfnet.df\carga\bases\geocode1_enderecos_empresas_df_rf_20181120.csv_ah.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
 GO
 
-BULK INSERT raisdes.tmp FROM '\\320CDL415.codeplandf.gdfnet.df\carga\bases\geocode1_enderecos_empresas_df_rf_20181120.csv_ai.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
+BULK INSERT raisdes.geocode1_enderecos_empresas_df FROM '\\320CDL415.codeplandf.gdfnet.df\carga\bases\geocode1_enderecos_empresas_df_rf_20181120.csv_ai.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
 GO
 
-BULK INSERT raisdes.tmp FROM '\\320CDL415.codeplandf.gdfnet.df\carga\bases\geocode1_enderecos_empresas_df_rf_20181120.csv_aj.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
+BULK INSERT raisdes.geocode1_enderecos_empresas_df FROM '\\320CDL415.codeplandf.gdfnet.df\carga\bases\geocode1_enderecos_empresas_df_rf_20181120.csv_aj.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
 GO
 
-BULK INSERT raisdes.tmp FROM '\\320CDL415.codeplandf.gdfnet.df\carga\bases\geocode1_enderecos_empresas_df_rf_20181120.csv_ak.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
+BULK INSERT raisdes.geocode1_enderecos_empresas_df FROM '\\320CDL415.codeplandf.gdfnet.df\carga\bases\geocode1_enderecos_empresas_df_rf_20181120.csv_ak.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
 GO
 
-BULK INSERT raisdes.tmp FROM '\\320CDL415.codeplandf.gdfnet.df\carga\bases\geocode1_enderecos_empresas_df_rf_20181120.csv_al.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
+BULK INSERT raisdes.geocode1_enderecos_empresas_df FROM '\\320CDL415.codeplandf.gdfnet.df\carga\bases\geocode1_enderecos_empresas_df_rf_20181120.csv_al.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
 GO
 
-BULK INSERT raisdes.tmp FROM '\\320CDL415.codeplandf.gdfnet.df\carga\bases\geocode1_enderecos_empresas_df_rf_20181120.csv_am.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
+BULK INSERT raisdes.geocode1_enderecos_empresas_df FROM '\\320CDL415.codeplandf.gdfnet.df\carga\bases\geocode1_enderecos_empresas_df_rf_20181120.csv_am.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
 GO
 
-BULK INSERT raisdes.tmp FROM '\\320CDL415.codeplandf.gdfnet.df\carga\bases\geocode1_enderecos_empresas_df_rf_20181120.csv_an.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
+BULK INSERT raisdes.geocode1_enderecos_empresas_df FROM '\\320CDL415.codeplandf.gdfnet.df\carga\bases\geocode1_enderecos_empresas_df_rf_20181120.csv_an.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
 GO
 
-BULK INSERT raisdes.tmp FROM '\\320CDL415.codeplandf.gdfnet.df\carga\bases\geocode1_enderecos_empresas_df_rf_20181120.csv_ao.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
+BULK INSERT raisdes.geocode1_enderecos_empresas_df FROM '\\320CDL415.codeplandf.gdfnet.df\carga\bases\geocode1_enderecos_empresas_df_rf_20181120.csv_ao.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
 GO
 
-BULK INSERT raisdes.tmp FROM '\\320CDL415.codeplandf.gdfnet.df\carga\bases\geocode1_enderecos_empresas_df_rf_20181120.csv_ap.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
+BULK INSERT raisdes.geocode1_enderecos_empresas_df FROM '\\320CDL415.codeplandf.gdfnet.df\carga\bases\geocode1_enderecos_empresas_df_rf_20181120.csv_ap.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
 GO
 
-BULK INSERT raisdes.tmp FROM '\\320CDL415.codeplandf.gdfnet.df\carga\bases\geocode1_enderecos_empresas_df_rf_20181120.csv_aq.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
+BULK INSERT raisdes.geocode1_enderecos_empresas_df FROM '\\320CDL415.codeplandf.gdfnet.df\carga\bases\geocode1_enderecos_empresas_df_rf_20181120.csv_aq.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
 GO
 
-BULK INSERT raisdes.tmp FROM '\\320CDL415.codeplandf.gdfnet.df\carga\bases\geocode1_enderecos_empresas_df_rf_20181120.csv_ar.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
+BULK INSERT raisdes.geocode1_enderecos_empresas_df FROM '\\320CDL415.codeplandf.gdfnet.df\carga\bases\geocode1_enderecos_empresas_df_rf_20181120.csv_ar.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
 GO
 
-BULK INSERT raisdes.tmp FROM '\\320CDL415.codeplandf.gdfnet.df\carga\bases\geocode1_enderecos_empresas_df_rf_20181120.csv_as.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
+BULK INSERT raisdes.geocode1_enderecos_empresas_df FROM '\\320CDL415.codeplandf.gdfnet.df\carga\bases\geocode1_enderecos_empresas_df_rf_20181120.csv_as.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
 GO
 
-BULK INSERT raisdes.tmp FROM '\\320CDL415.codeplandf.gdfnet.df\carga\bases\geocode1_enderecos_empresas_df_rf_20181120.csv_at.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
+BULK INSERT raisdes.geocode1_enderecos_empresas_df FROM '\\320CDL415.codeplandf.gdfnet.df\carga\bases\geocode1_enderecos_empresas_df_rf_20181120.csv_at.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
 GO
 
-BULK INSERT raisdes.tmp FROM '\\320CDL415.codeplandf.gdfnet.df\carga\bases\geocode1_enderecos_empresas_df_rf_20181120.csv_au.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
+BULK INSERT raisdes.geocode1_enderecos_empresas_df FROM '\\320CDL415.codeplandf.gdfnet.df\carga\bases\geocode1_enderecos_empresas_df_rf_20181120.csv_au.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
 GO
 
-BULK INSERT raisdes.tmp FROM '\\320CDL415.codeplandf.gdfnet.df\carga\bases\geocode1_enderecos_empresas_df_rf_20181120.csv_av.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
+BULK INSERT raisdes.geocode1_enderecos_empresas_df FROM '\\320CDL415.codeplandf.gdfnet.df\carga\bases\geocode1_enderecos_empresas_df_rf_20181120.csv_av.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
 GO
 
-BULK INSERT raisdes.tmp FROM '\\320CDL415.codeplandf.gdfnet.df\carga\bases\geocode1_enderecos_empresas_df_rf_20181120.csv_aw.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
+BULK INSERT raisdes.geocode1_enderecos_empresas_df FROM '\\320CDL415.codeplandf.gdfnet.df\carga\bases\geocode1_enderecos_empresas_df_rf_20181120.csv_aw.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
 GO
 
-BULK INSERT raisdes.tmp FROM '\\320CDL415.codeplandf.gdfnet.df\carga\bases\geocode1_enderecos_empresas_df_rf_20181120.csv_ax.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
+BULK INSERT raisdes.geocode1_enderecos_empresas_df FROM '\\320CDL415.codeplandf.gdfnet.df\carga\bases\geocode1_enderecos_empresas_df_rf_20181120.csv_ax.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
 GO
 
-BULK INSERT raisdes.tmp FROM '\\320CDL415.codeplandf.gdfnet.df\carga\bases\geocode1_enderecos_empresas_df_rf_20181120.csv_ay.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
+BULK INSERT raisdes.geocode1_enderecos_empresas_df FROM '\\320CDL415.codeplandf.gdfnet.df\carga\bases\geocode1_enderecos_empresas_df_rf_20181120.csv_ay.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
 GO
 
-BULK INSERT raisdes.tmp FROM '\\320CDL415.codeplandf.gdfnet.df\carga\bases\geocode1_enderecos_empresas_df_rf_20181120.csv_az.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
+BULK INSERT raisdes.geocode1_enderecos_empresas_df FROM '\\320CDL415.codeplandf.gdfnet.df\carga\bases\geocode1_enderecos_empresas_df_rf_20181120.csv_az.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
 GO
 
-BULK INSERT raisdes.tmp FROM '\\320CDL415.codeplandf.gdfnet.df\carga\bases\geocode1_enderecos_empresas_df_rf_20181120.csv_ba.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
+BULK INSERT raisdes.geocode1_enderecos_empresas_df FROM '\\320CDL415.codeplandf.gdfnet.df\carga\bases\geocode1_enderecos_empresas_df_rf_20181120.csv_ba.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
 GO
 
-BULK INSERT raisdes.tmp FROM '\\320CDL415.codeplandf.gdfnet.df\carga\bases\geocode1_enderecos_empresas_df_rf_20181120.csv_bb.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
+BULK INSERT raisdes.geocode1_enderecos_empresas_df FROM '\\320CDL415.codeplandf.gdfnet.df\carga\bases\geocode1_enderecos_empresas_df_rf_20181120.csv_bb.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
 GO
 
-BULK INSERT raisdes.tmp FROM '\\320CDL415.codeplandf.gdfnet.df\carga\bases\geocode1_enderecos_empresas_df_rf_20181120.csv_bc.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
+BULK INSERT raisdes.geocode1_enderecos_empresas_df FROM '\\320CDL415.codeplandf.gdfnet.df\carga\bases\geocode1_enderecos_empresas_df_rf_20181120.csv_bc.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
 GO
 
-BULK INSERT raisdes.tmp FROM '\\320CDL415.codeplandf.gdfnet.df\carga\bases\geocode1_enderecos_empresas_df_rf_20181120.csv_bd.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
+BULK INSERT raisdes.geocode1_enderecos_empresas_df FROM '\\320CDL415.codeplandf.gdfnet.df\carga\bases\geocode1_enderecos_empresas_df_rf_20181120.csv_bd.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
 GO
 
-BULK INSERT raisdes.tmp FROM '\\320CDL415.codeplandf.gdfnet.df\carga\bases\geocode1_enderecos_empresas_df_rf_20181120.csv_be.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
+BULK INSERT raisdes.geocode1_enderecos_empresas_df FROM '\\320CDL415.codeplandf.gdfnet.df\carga\bases\geocode1_enderecos_empresas_df_rf_20181120.csv_be.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
 GO
 
 IF OBJECT_ID('raisdes.geocode', 'U') IS NOT NULL DROP TABLE raisdes.geocode
@@ -130,16 +130,16 @@ select
  cast(ltrim(rtrim(lat)) as float) as lat,
  cast(ltrim(rtrim(long)) as float) as long
 into raisdes.geocode
-from raisdes.tmp
+from raisdes.geocode1_enderecos_empresas_df
 where lat <> 'NOT FOUND'
 GO
 
 /*Passo 02 - Carregar os arquivos com as informações originais utilizadas para a elaboração das coordenadas geográficas dos endereços*/
 
-IF OBJECT_ID('raisdes.tmp', 'U') IS NOT NULL DROP TABLE raisdes.tmp
+IF OBJECT_ID('raisdes.original_enderecos_empresas_df', 'U') IS NOT NULL DROP TABLE raisdes.original_enderecos_empresas_df
 GO 
 
-CREATE TABLE raisdes.tmp(
+CREATE TABLE raisdes.original_enderecos_empresas_df(
 chave	varchar(max)	NULL,
 referencia	varchar(max)	NULL,
 ind_fulldiario	varchar(max)	NULL,
@@ -182,67 +182,67 @@ dt_st_especial	varchar(max)	NULL
 ) ON [PRIMARY]
 GO
 
-BULK INSERT raisdes.tmp FROM '\\320CDL415.codeplandf.gdfnet.df\carga\bases\original_enderecos_empresas_df_rf_20181120.csv_aa.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
+BULK INSERT raisdes.original_enderecos_empresas_df FROM '\\320CDL415.codeplandf.gdfnet.df\carga\bases\original_enderecos_empresas_df_rf_20181120.csv_aa.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
 GO
-BULK INSERT raisdes.tmp FROM '\\320CDL415.codeplandf.gdfnet.df\carga\bases\original_enderecos_empresas_df_rf_20181120.csv_ab.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
+BULK INSERT raisdes.original_enderecos_empresas_df FROM '\\320CDL415.codeplandf.gdfnet.df\carga\bases\original_enderecos_empresas_df_rf_20181120.csv_ab.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
 GO
-BULK INSERT raisdes.tmp FROM '\\320CDL415.codeplandf.gdfnet.df\carga\bases\original_enderecos_empresas_df_rf_20181120.csv_ac.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
+BULK INSERT raisdes.original_enderecos_empresas_df FROM '\\320CDL415.codeplandf.gdfnet.df\carga\bases\original_enderecos_empresas_df_rf_20181120.csv_ac.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
 GO
-BULK INSERT raisdes.tmp FROM '\\320CDL415.codeplandf.gdfnet.df\carga\bases\original_enderecos_empresas_df_rf_20181120.csv_ad.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
+BULK INSERT raisdes.original_enderecos_empresas_df FROM '\\320CDL415.codeplandf.gdfnet.df\carga\bases\original_enderecos_empresas_df_rf_20181120.csv_ad.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
 GO
-BULK INSERT raisdes.tmp FROM '\\320CDL415.codeplandf.gdfnet.df\carga\bases\original_enderecos_empresas_df_rf_20181120.csv_ae.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
+BULK INSERT raisdes.original_enderecos_empresas_df FROM '\\320CDL415.codeplandf.gdfnet.df\carga\bases\original_enderecos_empresas_df_rf_20181120.csv_ae.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
 GO
-BULK INSERT raisdes.tmp FROM '\\320CDL415.codeplandf.gdfnet.df\carga\bases\original_enderecos_empresas_df_rf_20181120.csv_af.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
+BULK INSERT raisdes.original_enderecos_empresas_df FROM '\\320CDL415.codeplandf.gdfnet.df\carga\bases\original_enderecos_empresas_df_rf_20181120.csv_af.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
 GO
-BULK INSERT raisdes.tmp FROM '\\320CDL415.codeplandf.gdfnet.df\carga\bases\original_enderecos_empresas_df_rf_20181120.csv_ag.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
+BULK INSERT raisdes.original_enderecos_empresas_df FROM '\\320CDL415.codeplandf.gdfnet.df\carga\bases\original_enderecos_empresas_df_rf_20181120.csv_ag.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
 GO
-BULK INSERT raisdes.tmp FROM '\\320CDL415.codeplandf.gdfnet.df\carga\bases\original_enderecos_empresas_df_rf_20181120.csv_ah.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
+BULK INSERT raisdes.original_enderecos_empresas_df FROM '\\320CDL415.codeplandf.gdfnet.df\carga\bases\original_enderecos_empresas_df_rf_20181120.csv_ah.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
 GO
-BULK INSERT raisdes.tmp FROM '\\320CDL415.codeplandf.gdfnet.df\carga\bases\original_enderecos_empresas_df_rf_20181120.csv_ai.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
+BULK INSERT raisdes.original_enderecos_empresas_df FROM '\\320CDL415.codeplandf.gdfnet.df\carga\bases\original_enderecos_empresas_df_rf_20181120.csv_ai.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
 GO
-BULK INSERT raisdes.tmp FROM '\\320CDL415.codeplandf.gdfnet.df\carga\bases\original_enderecos_empresas_df_rf_20181120.csv_aj.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
+BULK INSERT raisdes.original_enderecos_empresas_df FROM '\\320CDL415.codeplandf.gdfnet.df\carga\bases\original_enderecos_empresas_df_rf_20181120.csv_aj.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
 GO
-BULK INSERT raisdes.tmp FROM '\\320CDL415.codeplandf.gdfnet.df\carga\bases\original_enderecos_empresas_df_rf_20181120.csv_ak.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
+BULK INSERT raisdes.original_enderecos_empresas_df FROM '\\320CDL415.codeplandf.gdfnet.df\carga\bases\original_enderecos_empresas_df_rf_20181120.csv_ak.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
 GO
-BULK INSERT raisdes.tmp FROM '\\320CDL415.codeplandf.gdfnet.df\carga\bases\original_enderecos_empresas_df_rf_20181120.csv_al.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
+BULK INSERT raisdes.original_enderecos_empresas_df FROM '\\320CDL415.codeplandf.gdfnet.df\carga\bases\original_enderecos_empresas_df_rf_20181120.csv_al.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
 GO
-BULK INSERT raisdes.tmp FROM '\\320CDL415.codeplandf.gdfnet.df\carga\bases\original_enderecos_empresas_df_rf_20181120.csv_am.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
+BULK INSERT raisdes.original_enderecos_empresas_df FROM '\\320CDL415.codeplandf.gdfnet.df\carga\bases\original_enderecos_empresas_df_rf_20181120.csv_am.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
 GO
-BULK INSERT raisdes.tmp FROM '\\320CDL415.codeplandf.gdfnet.df\carga\bases\original_enderecos_empresas_df_rf_20181120.csv_an.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
+BULK INSERT raisdes.original_enderecos_empresas_df FROM '\\320CDL415.codeplandf.gdfnet.df\carga\bases\original_enderecos_empresas_df_rf_20181120.csv_an.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
 GO
-BULK INSERT raisdes.tmp FROM '\\320CDL415.codeplandf.gdfnet.df\carga\bases\original_enderecos_empresas_df_rf_20181120.csv_ao.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
+BULK INSERT raisdes.original_enderecos_empresas_df FROM '\\320CDL415.codeplandf.gdfnet.df\carga\bases\original_enderecos_empresas_df_rf_20181120.csv_ao.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
 GO
-BULK INSERT raisdes.tmp FROM '\\320CDL415.codeplandf.gdfnet.df\carga\bases\original_enderecos_empresas_df_rf_20181120.csv_ap.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
+BULK INSERT raisdes.original_enderecos_empresas_df FROM '\\320CDL415.codeplandf.gdfnet.df\carga\bases\original_enderecos_empresas_df_rf_20181120.csv_ap.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
 GO
-BULK INSERT raisdes.tmp FROM '\\320CDL415.codeplandf.gdfnet.df\carga\bases\original_enderecos_empresas_df_rf_20181120.csv_aq.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
+BULK INSERT raisdes.original_enderecos_empresas_df FROM '\\320CDL415.codeplandf.gdfnet.df\carga\bases\original_enderecos_empresas_df_rf_20181120.csv_aq.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
 GO
-BULK INSERT raisdes.tmp FROM '\\320CDL415.codeplandf.gdfnet.df\carga\bases\original_enderecos_empresas_df_rf_20181120.csv_ar.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
+BULK INSERT raisdes.original_enderecos_empresas_df FROM '\\320CDL415.codeplandf.gdfnet.df\carga\bases\original_enderecos_empresas_df_rf_20181120.csv_ar.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
 GO
-BULK INSERT raisdes.tmp FROM '\\320CDL415.codeplandf.gdfnet.df\carga\bases\original_enderecos_empresas_df_rf_20181120.csv_as.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
+BULK INSERT raisdes.original_enderecos_empresas_df FROM '\\320CDL415.codeplandf.gdfnet.df\carga\bases\original_enderecos_empresas_df_rf_20181120.csv_as.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
 GO
-BULK INSERT raisdes.tmp FROM '\\320CDL415.codeplandf.gdfnet.df\carga\bases\original_enderecos_empresas_df_rf_20181120.csv_at.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
+BULK INSERT raisdes.original_enderecos_empresas_df FROM '\\320CDL415.codeplandf.gdfnet.df\carga\bases\original_enderecos_empresas_df_rf_20181120.csv_at.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
 GO
-BULK INSERT raisdes.tmp FROM '\\320CDL415.codeplandf.gdfnet.df\carga\bases\original_enderecos_empresas_df_rf_20181120.csv_au.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
+BULK INSERT raisdes.original_enderecos_empresas_df FROM '\\320CDL415.codeplandf.gdfnet.df\carga\bases\original_enderecos_empresas_df_rf_20181120.csv_au.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
 GO
-BULK INSERT raisdes.tmp FROM '\\320CDL415.codeplandf.gdfnet.df\carga\bases\original_enderecos_empresas_df_rf_20181120.csv_av.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
+BULK INSERT raisdes.original_enderecos_empresas_df FROM '\\320CDL415.codeplandf.gdfnet.df\carga\bases\original_enderecos_empresas_df_rf_20181120.csv_av.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
 GO
-BULK INSERT raisdes.tmp FROM '\\320CDL415.codeplandf.gdfnet.df\carga\bases\original_enderecos_empresas_df_rf_20181120.csv_aw.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
+BULK INSERT raisdes.original_enderecos_empresas_df FROM '\\320CDL415.codeplandf.gdfnet.df\carga\bases\original_enderecos_empresas_df_rf_20181120.csv_aw.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
 GO
-BULK INSERT raisdes.tmp FROM '\\320CDL415.codeplandf.gdfnet.df\carga\bases\original_enderecos_empresas_df_rf_20181120.csv_ax.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
+BULK INSERT raisdes.original_enderecos_empresas_df FROM '\\320CDL415.codeplandf.gdfnet.df\carga\bases\original_enderecos_empresas_df_rf_20181120.csv_ax.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
 GO
-BULK INSERT raisdes.tmp FROM '\\320CDL415.codeplandf.gdfnet.df\carga\bases\original_enderecos_empresas_df_rf_20181120.csv_ay.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
+BULK INSERT raisdes.original_enderecos_empresas_df FROM '\\320CDL415.codeplandf.gdfnet.df\carga\bases\original_enderecos_empresas_df_rf_20181120.csv_ay.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
 GO
-BULK INSERT raisdes.tmp FROM '\\320CDL415.codeplandf.gdfnet.df\carga\bases\original_enderecos_empresas_df_rf_20181120.csv_az.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
+BULK INSERT raisdes.original_enderecos_empresas_df FROM '\\320CDL415.codeplandf.gdfnet.df\carga\bases\original_enderecos_empresas_df_rf_20181120.csv_az.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
 GO
-BULK INSERT raisdes.tmp FROM '\\320CDL415.codeplandf.gdfnet.df\carga\bases\original_enderecos_empresas_df_rf_20181120.csv_ba.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
+BULK INSERT raisdes.original_enderecos_empresas_df FROM '\\320CDL415.codeplandf.gdfnet.df\carga\bases\original_enderecos_empresas_df_rf_20181120.csv_ba.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
 GO
-BULK INSERT raisdes.tmp FROM '\\320CDL415.codeplandf.gdfnet.df\carga\bases\original_enderecos_empresas_df_rf_20181120.csv_bb.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
+BULK INSERT raisdes.original_enderecos_empresas_df FROM '\\320CDL415.codeplandf.gdfnet.df\carga\bases\original_enderecos_empresas_df_rf_20181120.csv_bb.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
 GO
-BULK INSERT raisdes.tmp FROM '\\320CDL415.codeplandf.gdfnet.df\carga\bases\original_enderecos_empresas_df_rf_20181120.csv_bc.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
+BULK INSERT raisdes.original_enderecos_empresas_df FROM '\\320CDL415.codeplandf.gdfnet.df\carga\bases\original_enderecos_empresas_df_rf_20181120.csv_bc.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
 GO
-BULK INSERT raisdes.tmp FROM '\\320CDL415.codeplandf.gdfnet.df\carga\bases\original_enderecos_empresas_df_rf_20181120.csv_bd.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
+BULK INSERT raisdes.original_enderecos_empresas_df FROM '\\320CDL415.codeplandf.gdfnet.df\carga\bases\original_enderecos_empresas_df_rf_20181120.csv_bd.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
 GO
-BULK INSERT raisdes.tmp FROM '\\320CDL415.codeplandf.gdfnet.df\carga\bases\original_enderecos_empresas_df_rf_20181120.csv_be.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
+BULK INSERT raisdes.original_enderecos_empresas_df FROM '\\320CDL415.codeplandf.gdfnet.df\carga\bases\original_enderecos_empresas_df_rf_20181120.csv_be.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
 GO
 
 /*Passo 03 - Geração de um único arquivo, cnpj_pub_principal_geo, contendo as originais e as coordenadas geográficas dos endereços*/
@@ -298,7 +298,7 @@ select
    t2.lat,
    t2.long
 into raisdes.cnpj_pub_principal_geo
-from raisdes.tmp t1
+from raisdes.original_enderecos_empresas_df t1
 left join raisdes.geocode t2
 on t1.chave = t2.chave
 GO
@@ -473,10 +473,10 @@ GO
 
 /*Passo 08 - Carregar os arquivos com as informações das coordenadas geográficas dos endereços novos/alterados*/
 
-IF OBJECT_ID('raisdes.tmp', 'U') IS NOT NULL DROP TABLE raisdes.tmp
+IF OBJECT_ID('raisdes.geocode1_comp_enderecos_empresas_df', 'U') IS NOT NULL DROP TABLE raisdes.geocode1_comp_enderecos_empresas_df
 GO 
 
-CREATE TABLE raisdes.tmp(
+CREATE TABLE raisdes.geocode1_comp_enderecos_empresas_df(
 	chave	varchar(max)	NULL,
 	coluna_pesq	varchar(max)	NULL,
 	dado_compl_pesq	varchar(max)	NULL,
@@ -488,22 +488,22 @@ CREATE TABLE raisdes.tmp(
 ) ON [PRIMARY]
 GO
 
-BULK INSERT raisdes.tmp FROM '\\320CDL415.codeplandf.gdfnet.df\carga\Bases\files_complemento_empresas\geocode1_complemento_empresas.csv_aa.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
+BULK INSERT raisdes.geocode1_comp_enderecos_empresas_df FROM '\\320CDL415.codeplandf.gdfnet.df\carga\Bases\files_complemento_empresas\geocode1_complemento_empresas.csv_aa.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
 GO
 
-BULK INSERT raisdes.tmp FROM '\\320CDL415.codeplandf.gdfnet.df\carga\Bases\files_complemento_empresas\geocode1_complemento_empresas.csv_ab.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
+BULK INSERT raisdes.geocode1_comp_enderecos_empresas_df FROM '\\320CDL415.codeplandf.gdfnet.df\carga\Bases\files_complemento_empresas\geocode1_complemento_empresas.csv_ab.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
 GO
 
-BULK INSERT raisdes.tmp FROM '\\320CDL415.codeplandf.gdfnet.df\carga\Bases\files_complemento_empresas\geocode1_complemento_empresas.csv_ac.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
+BULK INSERT raisdes.geocode1_comp_enderecos_empresas_df FROM '\\320CDL415.codeplandf.gdfnet.df\carga\Bases\files_complemento_empresas\geocode1_complemento_empresas.csv_ac.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
 GO
 
-BULK INSERT raisdes.tmp FROM '\\320CDL415.codeplandf.gdfnet.df\carga\Bases\files_complemento_empresas\geocode1_complemento_empresas.csv_ad.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
+BULK INSERT raisdes.geocode1_comp_enderecos_empresas_df FROM '\\320CDL415.codeplandf.gdfnet.df\carga\Bases\files_complemento_empresas\geocode1_complemento_empresas.csv_ad.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
 GO
 
-BULK INSERT raisdes.tmp FROM '\\320CDL415.codeplandf.gdfnet.df\carga\Bases\files_complemento_empresas\geocode1_complemento_empresas.csv_ae.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
+BULK INSERT raisdes.geocode1_comp_enderecos_empresas_df FROM '\\320CDL415.codeplandf.gdfnet.df\carga\Bases\files_complemento_empresas\geocode1_complemento_empresas.csv_ae.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
 GO
 
-BULK INSERT raisdes.tmp FROM '\\320CDL415.codeplandf.gdfnet.df\carga\Bases\files_complemento_empresas\geocode1_complemento_empresas.csv_af.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
+BULK INSERT raisdes.geocode1_comp_enderecos_empresas_df FROM '\\320CDL415.codeplandf.gdfnet.df\carga\Bases\files_complemento_empresas\geocode1_complemento_empresas.csv_af.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
 GO
 
 IF OBJECT_ID('raisdes.geocode_comp', 'U') IS NOT NULL DROP TABLE raisdes.geocode_comp
@@ -519,16 +519,16 @@ select
  cast(ltrim(rtrim(lat)) as float) as lat,
  cast(ltrim(rtrim(long)) as float) as long
 into raisdes.geocode_comp
-from raisdes.tmp
+from raisdes.geocode1_comp_enderecos_empresas_df
 where lat <> 'NOT FOUND'
 GO
 
 /*Passo 09 - Carregar os arquivos com as informações originais utilizadas para a elaboração das coordenadas geográficas dos endereços novos/alterados*/
 
-IF OBJECT_ID('raisdes.tmp', 'U') IS NOT NULL DROP TABLE raisdes.tmp
+IF OBJECT_ID('raisdes.original_comp_enderecos_empresas_df', 'U') IS NOT NULL DROP TABLE raisdes.original_comp_enderecos_empresas_df
 GO 
 
-CREATE TABLE raisdes.tmp(
+CREATE TABLE raisdes.original_comp_enderecos_empresas_df(
 chave	varchar(max)	NULL,
 referencia	varchar(max)	NULL,
 ind_fulldiario	varchar(max)	NULL,
@@ -571,22 +571,22 @@ dt_st_especial	varchar(max)	NULL
 ) ON [PRIMARY]
 GO
 
-BULK INSERT raisdes.tmp FROM '\\320CDL415.codeplandf.gdfnet.df\carga\Bases\files_complemento_empresas\original_complemento_empresas.csv_aa.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
+BULK INSERT raisdes.original_comp_enderecos_empresas_df FROM '\\320CDL415.codeplandf.gdfnet.df\carga\Bases\files_complemento_empresas\original_complemento_empresas.csv_aa.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
 GO
 
-BULK INSERT raisdes.tmp FROM '\\320CDL415.codeplandf.gdfnet.df\carga\Bases\files_complemento_empresas\original_complemento_empresas.csv_ab.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
+BULK INSERT raisdes.original_comp_enderecos_empresas_df FROM '\\320CDL415.codeplandf.gdfnet.df\carga\Bases\files_complemento_empresas\original_complemento_empresas.csv_ab.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
 GO
 
-BULK INSERT raisdes.tmp FROM '\\320CDL415.codeplandf.gdfnet.df\carga\Bases\files_complemento_empresas\original_complemento_empresas.csv_ac.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
+BULK INSERT raisdes.original_comp_enderecos_empresas_df FROM '\\320CDL415.codeplandf.gdfnet.df\carga\Bases\files_complemento_empresas\original_complemento_empresas.csv_ac.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
 GO
 
-BULK INSERT raisdes.tmp FROM '\\320CDL415.codeplandf.gdfnet.df\carga\Bases\files_complemento_empresas\original_complemento_empresas.csv_ad.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
+BULK INSERT raisdes.original_comp_enderecos_empresas_df FROM '\\320CDL415.codeplandf.gdfnet.df\carga\Bases\files_complemento_empresas\original_complemento_empresas.csv_ad.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
 GO
 
-BULK INSERT raisdes.tmp FROM '\\320CDL415.codeplandf.gdfnet.df\carga\Bases\files_complemento_empresas\original_complemento_empresas.csv_ae.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
+BULK INSERT raisdes.original_comp_enderecos_empresas_df FROM '\\320CDL415.codeplandf.gdfnet.df\carga\Bases\files_complemento_empresas\original_complemento_empresas.csv_ae.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
 GO
 
-BULK INSERT raisdes.tmp FROM '\\320CDL415.codeplandf.gdfnet.df\carga\Bases\files_complemento_empresas\original_complemento_empresas.csv_af.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
+BULK INSERT raisdes.original_comp_enderecos_empresas_df FROM '\\320CDL415.codeplandf.gdfnet.df\carga\Bases\files_complemento_empresas\original_complemento_empresas.csv_af.txt' WITH (FORMAT = 'CSV', FIELDTERMINATOR=';', FIRSTROW=2, codepage=65001)
 GO
 
 /*Passo 10 - Geração de um único arquivo, cnpj_pub_principal_geo_comp, contendo as originais e as coordenadas geográficas dos endereços novos/alterados*/
@@ -642,7 +642,7 @@ select
    t2.lat,
    t2.long
 into raisdes.cnpj_pub_principal_geo_comp
-from raisdes.tmp t1
+from raisdes.original_comp_enderecos_empresas_df t1
 left join raisdes.geocode_comp t2
 on t1.chave = t2.chave
 GO
