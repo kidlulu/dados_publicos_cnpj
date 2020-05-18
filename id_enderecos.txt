@@ -1,0 +1,40 @@
+GET DATA
+  /TYPE=ODBC
+  /CONNECT='DSN=DB_CODEPLAN;UID=;PWD=;APP=IBM SPSS Products: '+
+    'Statistics Common;WSID=320CDL415;DATABASE=DB_CODEPLAN'
+  /SQL=
+ " select " 
+ "  rf1.cnpj, " 
+ "  rf1.desc_tipo_logradouro, " 
+ "  rf1.logradouro, " 
+ "  rf1.numero, " 
+ "  rf1.complemento, " 
+ "  rf1.bairro, " 
+ "  rf1.cep, " 
+ "  rf2.lat " 
+ " from raisdes.cnpj_pub_principal_20200426 rf1  " 
+ " left join raisdes.cnpj_pub_principal_20200302 rf2 " 
+ " on ltrim(rtrim(rf1.cnpj)) = ltrim(rtrim(rf2.cnpj)) " 
+ " and ltrim(rtrim(rf1.desc_tipo_logradouro)) = ltrim(rtrim(rf2.desc_tipo_logradouro)) " 
+ " and ltrim(rtrim(rf1.logradouro)) = ltrim(rtrim(rf2.logradouro)) " 
+ " and ltrim(rtrim(rf1.numero)) = ltrim(rtrim(rf2.numero)) " 
+ " and ltrim(rtrim(rf1.complemento)) = ltrim(rtrim(rf2.complemento)) " 
+ " and ltrim(rtrim(rf1.bairro)) = ltrim(rtrim(rf2.bairro)) " 
+ " and ltrim(rtrim(rf1.cep)) = ltrim(rtrim(rf2.cep)) " 
+ " where rf1.sit_cadastral = 2  " 
+ " and rf2.sit_cadastral = 2  " 
+ " and ltrim(rtrim(rf1.uf)) = 'DF' " 
+ " and ltrim(rtrim(rf2.uf)) = 'DF' " 
+ " and rf2.lat is null " 
+  /ASSUMEDSTRWIDTH=255.
+CACHE.
+EXECUTE.
+SAVE TRANSLATE OUTFILE='\\tsclient\tmp\cnpj_pub_principal_20200426.csv'
+  /TYPE=CSV
+  /ENCODING='windows-1252'
+  /MAP
+  /REPLACE
+  /FIELDNAMES
+  /CELLS=VALUES
+  /TEXTOPTIONS DELIMITER = '|'
+  /DROP = lat.
