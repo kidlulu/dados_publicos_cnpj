@@ -3,7 +3,7 @@
 OUTPUT DISPLAY.
 GET DATA
   /TYPE=ODBC
-  /CONNECT='DSN=DB_CODEPLAN;UID=35866;PWD=8u#J+D$~%z,G/N!m#,(#!-;APP=IBM SPSS Products: '+
+  /CONNECT='DSN=DB_CODEPLAN;UID=;PWD=;APP=IBM SPSS Products: '+
     'Statistics Common;WSID=320CDL415;DATABASE=DB_CODEPLAN'
   /SQL=
  " select " 
@@ -17,7 +17,7 @@ GET DATA
 CACHE.
 EXECUTE.
 ALTER TYPE ALL (A=AMIN).
-WRITE OUTFILE='D:\Users\35866\Documents\GitHub\dados_publicos_cnpj\cnae_secundaria.dat'
+WRITE OUTFILE='D:\Users\\Documents\GitHub\dados_publicos_cnpj\cnae_secundaria.dat'
   ENCODING='windows-1252'
   TABLE /ALL.
 EXECUTE.
@@ -25,7 +25,7 @@ EXECUTE.
 OUTPUT DISPLAY.
 GET DATA
   /TYPE=ODBC
-  /CONNECT='DSN=DB_CODEPLAN;UID=35866;PWD=8u#J+D$~%z,G/N!m#,(#!-;APP=IBM SPSS Products: '+
+  /CONNECT='DSN=DB_CODEPLAN;UID=;PWD=;APP=IBM SPSS Products: '+
     'Statistics Common;WSID=320CDL415;DATABASE=DB_CODEPLAN'
   /SQL=
  " select " 
@@ -39,7 +39,7 @@ GET DATA
 CACHE.
 EXECUTE.
 ALTER TYPE ALL (A=AMIN).
-WRITE OUTFILE='D:\Users\35866\Documents\GitHub\dados_publicos_cnpj\cnpj_pub_cnae_secundaria.dat'
+WRITE OUTFILE='D:\Users\\Documents\GitHub\dados_publicos_cnpj\cnpj_pub_cnae_secundaria.dat'
   ENCODING='windows-1252'
   TABLE /ALL.
 EXECUTE.
@@ -47,7 +47,7 @@ EXECUTE.
 OUTPUT DISPLAY.
 GET DATA
   /TYPE=ODBC
-  /CONNECT='DSN=DB_CODEPLAN;UID=35866;PWD=8u#J+D$~%z,G/N!m#,(#!-;APP=IBM SPSS Products: '+
+  /CONNECT='DSN=DB_CODEPLAN;UID=;PWD=;APP=IBM SPSS Products: '+
     'Statistics Common;WSID=320CDL415;DATABASE=DB_CODEPLAN'
   /SQL=
  " select " 
@@ -95,7 +95,7 @@ GET DATA
 CACHE.
 EXECUTE.
 ALTER TYPE ALL (A=AMIN).
-WRITE OUTFILE='D:\Users\35866\Documents\GitHub\dados_publicos_cnpj\cnpj_pub_principal.dat'
+WRITE OUTFILE='D:\Users\\Documents\GitHub\dados_publicos_cnpj\cnpj_pub_principal.dat'
   ENCODING='windows-1252'
   TABLE /ALL.
 EXECUTE.
@@ -103,7 +103,7 @@ EXECUTE.
 OUTPUT DISPLAY.
 GET DATA
   /TYPE=ODBC
-  /CONNECT='DSN=DB_CODEPLAN;UID=35866;PWD=8u#J+D$~%z,G/N!m#,(#!-;APP=IBM SPSS Products: '+
+  /CONNECT='DSN=DB_CODEPLAN;UID=;PWD=;APP=IBM SPSS Products: '+
     'Statistics Common;WSID=320CDL415;DATABASE=DB_CODEPLAN'
   /SQL=
  " select " 
@@ -114,7 +114,7 @@ GET DATA
 CACHE.
 EXECUTE.
 ALTER TYPE ALL (A=AMIN).
-WRITE OUTFILE='D:\Users\35866\Documents\GitHub\dados_publicos_cnpj\cnpj_pub_qualificacao_responsavel.dat'
+WRITE OUTFILE='D:\Users\\Documents\GitHub\dados_publicos_cnpj\cnpj_pub_qualificacao_responsavel.dat'
   ENCODING='windows-1252'
   TABLE /ALL.
 EXECUTE.
@@ -122,7 +122,7 @@ EXECUTE.
 OUTPUT DISPLAY.
 GET DATA
   /TYPE=ODBC
-  /CONNECT='DSN=DB_CODEPLAN;UID=35866;PWD=8u#J+D$~%z,G/N!m#,(#!-;APP=IBM SPSS Products: '+
+  /CONNECT='DSN=DB_CODEPLAN;UID=;PWD=;APP=IBM SPSS Products: '+
     'Statistics Common;WSID=320CDL415;DATABASE=DB_CODEPLAN'
   /SQL=
  " select " 
@@ -133,7 +133,7 @@ GET DATA
 CACHE.
 EXECUTE.
 ALTER TYPE ALL (A=AMIN).
-WRITE OUTFILE='D:\Users\35866\Documents\GitHub\dados_publicos_cnpj\cnpj_pub_sit_cadastral.dat'
+WRITE OUTFILE='D:\Users\\Documents\GitHub\dados_publicos_cnpj\cnpj_pub_sit_cadastral.dat'
   ENCODING='windows-1252'
   TABLE /ALL.
 EXECUTE.
@@ -141,7 +141,7 @@ EXECUTE.
 OUTPUT DISPLAY.
 GET DATA
   /TYPE=ODBC
-  /CONNECT='DSN=DB_CODEPLAN;UID=35866;PWD=8u#J+D$~%z,G/N!m#,(#!-;APP=IBM SPSS Products: '+
+  /CONNECT='DSN=DB_CODEPLAN;UID=;PWD=;APP=IBM SPSS Products: '+
     'Statistics Common;WSID=320CDL415;DATABASE=DB_CODEPLAN'
   /SQL=
  " select " 
@@ -165,7 +165,7 @@ GET DATA
 CACHE.
 EXECUTE.
 ALTER TYPE ALL (A=AMIN).
-WRITE OUTFILE='D:\Users\35866\Documents\GitHub\dados_publicos_cnpj\cnpj_pub_socios.dat'
+WRITE OUTFILE='D:\Users\\Documents\GitHub\dados_publicos_cnpj\cnpj_pub_socios.dat'
   ENCODING='windows-1252'
   TABLE /ALL.
 EXECUTE.
@@ -173,7 +173,7 @@ EXECUTE.
 OUTPUT DISPLAY.
 GET DATA
   /TYPE=ODBC
-  /CONNECT='DSN=DB_CODEPLAN;UID=35866;PWD=8u#J+D$~%z,G/N!m#,(#!-;APP=IBM SPSS Products: '+
+  /CONNECT='DSN=DB_CODEPLAN;UID=;PWD=;APP=IBM SPSS Products: '+
     'Statistics Common;WSID=320CDL415;DATABASE=DB_CODEPLAN'
   /SQL=
  " select " 
@@ -224,7 +224,7 @@ GET DATA
 CACHE.
 EXECUTE.
 ALTER TYPE ALL (A=AMIN).
-WRITE OUTFILE='D:\Users\35866\Documents\GitHub\dados_publicos_cnpj\dados_cadastrais.dat'
+WRITE OUTFILE='D:\Users\\Documents\GitHub\dados_publicos_cnpj\dados_cadastrais.dat'
   ENCODING='windows-1252'
   TABLE /ALL.
 EXECUTE.
