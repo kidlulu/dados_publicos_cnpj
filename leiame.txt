@@ -1,0 +1,13 @@
+Descrição do processo de carga dos dados sobre CNPJ disponibilizados pela Receita Federal
+
+-> Os microdados são baixados do endereço eletrônico https://www.gov.br/receitafederal/pt-br/assuntos/orientacao-tributaria/cadastros/consultas/dados-publicos-cnpj
+
+-> Todos os arquivos são salvos em um diretório principal que recebe o nome rf_aaaammdd
+
+-> O tratamento das informações inicia com a execução do arquivo 01_processamento.ps1 que faz os seguintes processamentos:
+	1 - Cria subpastas de acordo com o tipo de informação
+	2 - Move os arquivos, de acordo com o tipo de informação, para suas respectivas subpastas
+	3 - Descompacta os arquivos em suas respectivas subpastas
+	4 - Dividi (esquartejar) os arquivos descompactados em suas respectivas subpastas
+
+-> Para carregar as informações no banco de dados SQL Server é executado o arquivo carga_novo_leiaute.sql
