@@ -2,7 +2,7 @@ USE DB_CODEPLAN;
 
 ALTER USER [35866] WITH DEFAULT_SCHEMA = [cnpj];
 
---Referência: 2021/10/14
+--Referência: 2022/08/13
 
 --Descrição das siglas utilizadas nas abreviações
 --id = IDentificador
@@ -54,46 +54,46 @@ IF OBJECT_ID('EMPRECSV', 'U') IS NOT NULL DROP TABLE EMPRECSV;
 COMMIT TRANSACTION;
 
 BEGIN TRANSACTION;
-IF OBJECT_ID('emp_20211014', 'U') IS NOT NULL DROP TABLE emp_20211014; 
+IF OBJECT_ID('emp_20220813', 'U') IS NOT NULL DROP TABLE emp_20220813; 
 COMMIT TRANSACTION;
 
 BEGIN TRANSACTION;
-IF OBJECT_ID('est_20211014', 'U') IS NOT NULL DROP TABLE est_20211014; 
+IF OBJECT_ID('est_20220813', 'U') IS NOT NULL DROP TABLE est_20220813; 
 COMMIT TRANSACTION;
 
 BEGIN TRANSACTION;
-IF OBJECT_ID('sim_20211014', 'U') IS NOT NULL DROP TABLE sim_20211014; 
+IF OBJECT_ID('sim_20220813', 'U') IS NOT NULL DROP TABLE sim_20220813; 
 COMMIT TRANSACTION;
 
 BEGIN TRANSACTION;
-IF OBJECT_ID('soc_20211014', 'U') IS NOT NULL DROP TABLE soc_20211014; 
+IF OBJECT_ID('soc_20220813', 'U') IS NOT NULL DROP TABLE soc_20220813; 
 COMMIT TRANSACTION;
 
 BEGIN TRANSACTION;
-IF OBJECT_ID('pais_20211014', 'U') IS NOT NULL DROP TABLE pais_20211014; 
+IF OBJECT_ID('pais_20220813', 'U') IS NOT NULL DROP TABLE pais_20220813; 
 COMMIT TRANSACTION;
 
 BEGIN TRANSACTION;
-IF OBJECT_ID('mun_20211014', 'U') IS NOT NULL DROP TABLE mun_20211014; 
+IF OBJECT_ID('mun_20220813', 'U') IS NOT NULL DROP TABLE mun_20220813; 
 COMMIT TRANSACTION;
 
 BEGIN TRANSACTION;
-IF OBJECT_ID('qualsc_20211014', 'U') IS NOT NULL DROP TABLE qualsc_20211014; 
+IF OBJECT_ID('qualsc_20220813', 'U') IS NOT NULL DROP TABLE qualsc_20220813; 
 COMMIT TRANSACTION;
 
 BEGIN TRANSACTION;
-IF OBJECT_ID('natju_20211014', 'U') IS NOT NULL DROP TABLE natju_20211014; 
+IF OBJECT_ID('natju_20220813', 'U') IS NOT NULL DROP TABLE natju_20220813; 
 COMMIT TRANSACTION;
 
 BEGIN TRANSACTION;
-IF OBJECT_ID('cnaes_20211014', 'U') IS NOT NULL DROP TABLE cnaes_20211014; 
+IF OBJECT_ID('cnaes_20220813', 'U') IS NOT NULL DROP TABLE cnaes_20220813; 
 COMMIT TRANSACTION;
 
 CREATE TABLE EMPRECSV(
 coluna varchar(max) 
 ) ON [PRIMARY];
 
-BULK INSERT EMPRECSV FROM '\\10.73.53.224\carga\cnpj\rf_20211014\EMPRECSV\EMPRECSV.dat';
+BULK INSERT EMPRECSV FROM '\\10.73.53.224\carga\cnpj\rf_20220813\EMPRECSV\EMPRECSV.dat';
 
 select
  try_cast('2021/10/14' as date) referencia,
@@ -104,14 +104,14 @@ select
  cast(replace(trim(substring(coluna,165,15)),',','.') as float) capital_social,
  cast(trim(substring(coluna,180,2)) as smallint) porte_empresa,
  cast(trim(substring(coluna,182,37)) as nchar(40)) ente_responsavel
-into emp_20211014
+into emp_20220813
 from EMPRECSV;
 
 CREATE TABLE ESTABELE(
 coluna varchar(max) null
 ) ON [PRIMARY];
 
-BULK INSERT ESTABELE FROM '\\10.73.53.224\carga\cnpj\rf_20211014\ESTABELE\ESTABELE.dat';
+BULK INSERT ESTABELE FROM '\\10.73.53.224\carga\cnpj\rf_20220813\ESTABELE\ESTABELE.dat';
 
 select
  try_cast('2021/10/14' as date) referencia,
@@ -151,14 +151,14 @@ select
  try_cast(concat(substring(trim(substring(coluna,890,8)),1,4),'/',
                  substring(trim(substring(coluna,890,8)),5,2),'/',
                  substring(trim(substring(coluna,890,8)),7,2)) as date) dt_st_especial 
-into est_20211014
+into est_20220813
 from ESTABELE;
 
 CREATE TABLE SIMPLES(
 coluna varchar(max) null
 ) ON [PRIMARY];
 
-BULK INSERT SIMPLES FROM '\\10.73.53.224\carga\cnpj\rf_20211014\SIMPLES\SIMPLES.dat';
+BULK INSERT SIMPLES FROM '\\10.73.53.224\carga\cnpj\rf_20220813\SIMPLES\SIMPLES.dat';
 
 select
  try_cast('2021/10/14' as date) referencia,
@@ -169,14 +169,14 @@ select
  cast(trim(substring(coluna,26,1)) as nchar(1)) opcao_mei,
  try_cast(concat(substring(trim(substring(coluna,27,8)),1,4),'/',substring(trim(substring(coluna,27,8)),5,2),'/',substring(trim(substring(coluna,27,8)),7,2)) as date) dt_opcao_mei,
  try_cast(concat(substring(trim(substring(coluna,35,8)),1,4),'/',substring(trim(substring(coluna,35,8)),5,2),'/',substring(trim(substring(coluna,35,8)),7,2)) as date) dt_exclusao_mei
-into sim_20211014
+into sim_20220813
 from SIMPLES;
 
 CREATE TABLE SOCIO(
 coluna varchar(max) null
 ) ON [PRIMARY];
 
-BULK INSERT SOCIO FROM '\\10.73.53.224\carga\cnpj\rf_20211014\SOCIOCSV\SOCIOCSV.dat';
+BULK INSERT SOCIO FROM '\\10.73.53.224\carga\cnpj\rf_20220813\SOCIOCSV\SOCIOCSV.dat';
 
 select
  try_cast('2021/10/14' as date) referencia,
@@ -191,67 +191,67 @@ select
  cast(trim(substring(coluna,197,60)) as nchar(60)) as nm_repres_legal,
  cast(substring(coluna,257,2) as smallint) as cd_qualif_repres_legal,
  cast(substring(coluna,259,1) as smallint) as fx_etaria
-into soc_20211014
+into soc_20220813
 from SOCIO;
 
 CREATE TABLE PAIS(
 coluna varchar(max) null
 ) ON [PRIMARY];
 
-BULK INSERT PAIS FROM '\\10.73.53.224\carga\cnpj\rf_20211014\PAISCSV.dat';
+BULK INSERT PAIS FROM '\\10.73.53.224\carga\cnpj\rf_20220813\PAISCSV.dat';
 
 select
  cast(substring(coluna,1,3) as smallint) as cd_pais,
  cast(trim(substring(coluna,4,42)) as nchar(42)) as desc_pais
-into pais_20211014
+into pais_20220813
 from PAIS;
 
 CREATE TABLE MUNIC(
 coluna varchar(max) null
 ) ON [PRIMARY];
 
-BULK INSERT MUNIC FROM '\\10.73.53.224\carga\cnpj\rf_20211014\MUNICCSV.dat';
+BULK INSERT MUNIC FROM '\\10.73.53.224\carga\cnpj\rf_20220813\MUNICCSV.dat';
 
 select
  cast(substring(coluna,1,4) as smallint) as cd_municipio,
  cast(trim(substring(coluna,5,32)) as nchar(40)) as desc_municipio
-into mun_20211014
+into mun_20220813
 from MUNIC;
 
 CREATE TABLE QUAL(
 coluna varchar(max) null
 ) ON [PRIMARY];
 
-BULK INSERT QUAL FROM '\\10.73.53.224\carga\cnpj\rf_20211014\QUALSCSV.dat';
+BULK INSERT QUAL FROM '\\10.73.53.224\carga\cnpj\rf_20220813\QUALSCSV.dat';
 
 select
  cast(substring(coluna,1,2) as smallint) as cd_qualif,
  cast(trim(substring(coluna,3,70)) as nchar(70)) as desc_qualif
-into qualsc_20211014
+into qualsc_20220813
 from QUAL;
 
 CREATE TABLE NATJU(
 coluna varchar(max) null
 ) ON [PRIMARY];
 
-BULK INSERT NATJU FROM '\\10.73.53.224\carga\cnpj\rf_20211014\NATJUCSV.dat';
+BULK INSERT NATJU FROM '\\10.73.53.224\carga\cnpj\rf_20220813\NATJUCSV.dat';
 
 select
  cast(substring(coluna,1,4) as smallint) as cd_natju,
  cast(trim(substring(coluna,5,72)) as nchar(80)) as desc_natju
-into natju_20211014
+into natju_20220813
 from NATJU;
 
 CREATE TABLE CNAE(
 coluna varchar(max) null
 ) ON [PRIMARY];
 
-BULK INSERT CNAE FROM '\\10.73.53.224\carga\cnpj\rf_20211014\CNAECSV.dat';
+BULK INSERT CNAE FROM '\\10.73.53.224\carga\cnpj\rf_20220813\CNAECSV.dat';
 
 select
  cast(substring(coluna,1,7) as int) as cd_cnaes,
  cast(trim(substring(coluna,8,123)) as nchar(150)) as desc_cnaes
-into cnaes_20211014
+into cnaes_20220813
 from CNAE;
 
 
